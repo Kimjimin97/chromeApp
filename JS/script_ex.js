@@ -20,8 +20,6 @@ function greetingPaint(username) {
   greeting.classList.remove(HIDDEN_CLASS);
 }
 
-// loginForm.addEventListener("submit", submitForm);
-
 // 클릭이 발생하지 않을 때도 실행
 const localUserName = localStorage.getItem(USERANME_KEY);
 
